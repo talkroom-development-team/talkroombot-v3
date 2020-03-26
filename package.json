@@ -1,5 +1,5 @@
 {
-  "name": "talkroombot",
+  "name": "chatroombot",
   "version": "3.0.0-beta",
   "description": "수다방에 사용되는 수다방 공식 봇",
   "main": "index.js",
@@ -8,22 +8,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pmh-only/talkroombot-v3.git"
+    "url": "git+https://github.com/talkroom-development-team/chatroombot-v3.git"
   },
   "keywords": [
     "discord",
     "discord.js",
     "javascript",
     "node.js",
-    "talkroom",
+    "chatroom",
     "Inital T"
   ],
-  "author": "Inital T",
+  "author": "Initial T",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pmh-only/talkroombot-v3/issues"
+    "url": "https://github.com/talkroom-development-team/chatroombot-v3/issues"
   },
-  "homepage": "https://github.com/pmh-only/talkroombot-v3#readme",
+  "homepage": "https://github.com/talkroom-development-team/chatroombot-v3#readme",
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.1",
