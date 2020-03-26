@@ -6,7 +6,7 @@
  * @description 수다방에 사용되는 수다방 공식 봇
  *
  * @license MIT
- * @author Initial T / PMH (알아서 추가하세여)
+ * @author Initial T / comjun04(@comjun04) / minseo0388(@Naesung, 129.03) / PMH(@pmh-only) / Veloster(@velo64)
  *
  */
 
