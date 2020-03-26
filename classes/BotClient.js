@@ -5,7 +5,6 @@ class BotClient extends Client {
   constructor () {
     super()
     const collector = new Collector()
-    this._commands = collector.commands
     this.login(collector.token)
     this.on('ready', this.onready)
   }
