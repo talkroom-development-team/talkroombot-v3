@@ -3,7 +3,7 @@
 /* eslint-disable no-new */
 /**
  *
- * @name ChatroomBot-v3
+ * @name TalkroomBot-v3
  * @description 수다방에 사용되는 수다방 공식 봇
  *
  * @license MIT
