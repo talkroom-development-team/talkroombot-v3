@@ -1,4 +1,4 @@
-# chatroombot-v3
+# talkroombot-v3
 수다방에 사용되는 수다방 공식 봇
 
 ## 개발할 때 꼭 지켜주세요!
