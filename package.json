@@ -1,5 +1,5 @@
 {
-  "name": "chatroombot",
+  "name": "talkroombot",
   "version": "3.0.0-beta",
   "description": "수다방에 사용되는 수다방 공식 봇",
   "main": "index.js",
