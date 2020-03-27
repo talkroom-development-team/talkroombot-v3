@@ -11,3 +11,4 @@ function fnc (client, msg) {
 
 module.exports = fnc
 module.exports.alias = ['ping', '핑']
+module.exports.description = '그냥 핑 하려고 있는거'
