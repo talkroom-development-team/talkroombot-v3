@@ -33,6 +33,8 @@
     "eslint-plugin-standard": "^4.0.1"
   },
   "dependencies": {
-    "discord.js": "^12.0.2"
+    "discord.js": "^12.0.2",
+    "knex": "^0.21.1",
+    "mysql": "^2.18.1"
   }
 }

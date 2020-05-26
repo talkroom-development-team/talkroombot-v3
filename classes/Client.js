@@ -45,6 +45,12 @@ class Client extends DiscordClient {
       if (!exist(path() + '/' + e + '/index.js')) return
       this.extensions[e] = require(path() + '/' + e + '/index')
     })
+
+    // Database Setup
+    this.knex = require('knex')({
+      client: 'mysql',
+      connection: this.setting.raw.db
+    })
   }
 
   on (event, method) {

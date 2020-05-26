@@ -116,3 +116,6 @@ dist
 
 # F*king Setting File
 settings.json
+
+# F*king VIM SWAP FILE
+*.swp
