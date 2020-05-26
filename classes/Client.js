@@ -42,8 +42,8 @@ class Client extends DiscordClient {
     this.extensions = {}
 
     this._extensions.forEach((e) => {
-      if (!exist(path() + '/' + e + '/index.js')) return
-      this.extensions[e] = require(path() + '/' + e + '/index')
+      if (!exist(path() + '/extensions/' + e + '/index.js')) return
+      this.extensions[e] = require(path() + '/extensions/' + e + '/index')
     })
 
     // Database Setup
