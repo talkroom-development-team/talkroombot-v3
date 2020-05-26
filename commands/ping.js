@@ -1,3 +1,7 @@
+/**
+ * @param {import('../classes/Client')} client
+ * @param {import('discord.js').Message} msg
+ */
 function run (_, msg) {
   msg.channel.send('pong')
 }
