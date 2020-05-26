@@ -31,7 +31,7 @@ class Client extends DiscordClient {
     this.commands = []
 
     this._commands.forEach((c) => {
-      if(!c.endsWith('.js')) return
+      if (!c.endsWith('.js')) return
       c = c.replace('.js', '')
       c = require(path() + '/commands/' + c)
       this.commands.push(c)
