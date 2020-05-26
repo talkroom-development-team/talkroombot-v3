@@ -17,5 +17,5 @@ const client = new Client()
 const onReady = require('./events/onReady')
 const onMessage = require('./events/onMessage')
 
-client.on('ready', onReady)
-client.on('message', onMessage)
+client.registEvent('ready', onReady)
+client.registEvent('message', onMessage)

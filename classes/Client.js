@@ -31,6 +31,7 @@ class Client extends DiscordClient {
     this.commands = []
 
     this._commands.forEach((c) => {
+      if(!c.endsWith('.js')) return
       c = c.replace('.js', '')
       c = require(path() + '/commands/' + c)
       this.commands.push(c)
@@ -53,10 +54,9 @@ class Client extends DiscordClient {
     })
   }
 
-  on (event, method) {
-    super.on(event, (...args) => {
-      method(this, ...args, this.extensions || {})
-    })
+  // Overriding 'on' method causes collector error
+  registEvent (event, method) {
+    this.on(event, (...args) => method(this, ...args, this.extensions || {}))
   }
 }
 
