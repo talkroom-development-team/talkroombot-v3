@@ -11,5 +11,11 @@
  *
  */
 
-const BotClient = require('./classes/BotClient.js')
-new BotClient()
+const Client = require('./classes/Client')
+const client = new Client()
+
+const onReady = require('./events/onReady')
+const onMessage = require('./events/onMessage')
+
+client.on('ready', onReady)
+client.on('message', onMessage)

@@ -1,14 +1,7 @@
-function fnc (client, msg) {
-  msg.channel.send('Pinging...')
-    .then(sendThen)
-
-  function sendThen (m) {
-    const wsPing = 'ws: ' + Math.round(client.ws.ping) + 'ms'
-    const msgPing = 'msg: ' + Math.round(m.createdTimestamp - msg.createdTimestamp) + 'ms'
-    m.edit(wsPing + '\n' + msgPing)
-  }
+function run (_, msg) {
+  msg.channel.send('pong')
 }
 
-module.exports = fnc
-module.exports.alias = ['ping', '핑']
-module.exports.description = '그냥 핑 하려고 있는거'
+module.exports.run = run
+module.exports.aliases = ['ping']
+module.exports.description = '핑핑, 시진핑'
