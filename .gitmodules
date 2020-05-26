@@ -1,0 +1,3 @@
+[submodule "extensions/badword"]
+	path = extensions/badword
+	url = https://github.com/talkroom-development-team/badword-filter
