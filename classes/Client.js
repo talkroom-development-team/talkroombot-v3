@@ -16,6 +16,10 @@ class Client extends DiscordClient {
       this.setting.exist
         ? this.setting.raw.prefix || 'tr>'
         : process.env.trPrefix || 'tr>'
+    this.setting.owner =
+      this.setting.exist
+        ? this.setting.raw.owner || []
+        : []
 
     this.setting.token =
       this.setting.exist
