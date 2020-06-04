@@ -5,6 +5,10 @@ const Query = require('../classes/Query')
  * @param {import('discord.js').Message} msg
  */
 function onMessage (client, msg, extensions) {
+  if (msg.author.id === client.user.id) return
+
+  extensions.levels(msg)
+
   if (!msg.content.startsWith(client.setting.prefix)) return
 
   const query = new Query(client, msg)

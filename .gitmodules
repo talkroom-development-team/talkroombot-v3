@@ -1,3 +1,6 @@
 [submodule "extensions/badword"]
 	path = extensions/badword
 	url = https://github.com/talkroom-development-team/badword-filter
+[submodule "extensions/levels"]
+	path = extensions/levels
+	url = https://github.com/talkroom-development-team/levels.git
